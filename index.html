@@ -43,17 +43,30 @@
 		</div>
 		</div>
 		<div id="button-container">
-			<div id="button1">
+			<div id="button-text1">
 
 				<a href="https://forms.gle/Mun49vD7k61innVg6">
-					Short Survey
+				<div id="button1">
+
+						Short Survey
+				</div>
 				</a>
+				<div id="time1">
+				< 1 minute
+				</div>
 			</div>
-			<div id="button2">
+			<div id="button-text2">
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeA4xyY5Aj7AjS4tBH13sYDb-BJbfLtA1K1SnL9i8e_Oh1www/viewform">
-					Long Survey
+				<div id="button2">
+
+						Long Survey
+				</div>
 				</a>
+				<div id="time2">
+				5 minutes
+				</div>
 			</div>
+
 		</div>
 		<div id="footer">
 		<div id= "marta-army">
@@ -123,9 +136,21 @@
 		display: flex;
 
 	}
-	#button1
+	#button-text1
 	{
 		margin-right: 100px;
+		padding: 20px 50px 20px 50px;
+		margin-left: auto;
+	}
+	#button-text2
+	{
+		margin-left: 100px;
+		padding: 20px 50px 20px 50px;
+		margin-right: auto;
+	}
+
+	#button1
+	{
 		padding: 20px 50px 20px 50px;
 		margin-left: auto;
 		background-color: #00AEEF;
@@ -138,7 +163,6 @@
 
 	#button2
 	{
-		margin-left: 100px;
 		margin-right: auto;
 		padding: 20px 50px 20px 50px;
 		background-color: #00AEEF;
@@ -147,6 +171,25 @@
 		font-size: 24px;
 		font-weight: bold;
 
+
+	}
+	#time1
+	{
+		text-align: center;
+		font-family: sans-serif;
+		color: rgba(0,0,0,.3);
+		font-size: 18px;
+		font-weight: normal;
+		padding: 10px 10px 10px 10px;
+	}
+	#time2
+	{
+		text-align: center;
+		font-family: sans-serif;
+		color: rgba(0,0,0,.3);
+		font-size: 18px;
+		font-weight: normal;
+		padding: 10px 10px 10px 10px;
 
 	}
 
@@ -206,19 +249,34 @@
 		{
 			display: block;
 		}
-		#button1
+		#button-text1
+		{
+		text-align: center;
+			margin: 20px 20px 20px 20px;	
+		}
+		#button-text2
 		{
 			text-align: center;
 			margin: 20px 20px 20px 20px;
+		}
+		#button1
+		{
 			font-size: 36px;
 			padding: 20px 30px 20px 30px;
 		}
 		#button2
 		{
-			text-align: center;
-			margin: 20px 20px 20px 20px;
+			
 			font-size: 36px;
 			padding: 20px 30px 20px 30px;
+		}
+		#time1
+		{
+			font-size: 24px;
+		}
+		#time2
+		{
+			font-size: 24px;
 		}
 		#text
 		{
